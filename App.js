@@ -23,7 +23,6 @@ const App = () => {
   return(
     
     <NavigationContainer>
-    <StatusBar translucent={true}></StatusBar>
       <Stack.Navigator  screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Play" component={Game} />

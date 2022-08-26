@@ -268,7 +268,7 @@ var purple = new Sound('evil.mp3', Sound.MAIN_BUNDLE, error => {
                       keyExtractor={cell => cell.id}
             />
         </View>
-        <View style = {[styles.turn, {transform: [{translateX: turn}, { translateY: 180 }],}]}/>
+        <View style = {[styles.turn, {transform: [{translateX: turn}, { translateY: 150 }],}]}/>
         <View style = {styles.playerContainer}>
           <Image source={require('../assets/bob.png')} style={styles.player}/>
           <View style = {styles.purpleContainer}><Image source={require('../assets/purple.png')} style={styles.player}/></View>
@@ -295,7 +295,7 @@ var purple = new Sound('evil.mp3', Sound.MAIN_BUNDLE, error => {
     marginTop: 80,
     position: 'absolute',
     justifyContent: 'space-between',
-    transform: [{ translateY: 365 }]
+    transform: [{ translateY: 290 }]
    },
    player:{
     width: 200,
@@ -325,6 +325,7 @@ var purple = new Sound('evil.mp3', Sound.MAIN_BUNDLE, error => {
     borderRightColor: 'transparent',
     borderTopColor: 'lime',
     position: 'absolute',
+    transform: [{ translateY: 140 }],
    },
    table:{
     flexDirection: 'row',
@@ -334,8 +335,7 @@ var purple = new Sound('evil.mp3', Sound.MAIN_BUNDLE, error => {
     justifyContent: 'center',
     backgroundColor: '#0C457A',
     padding: 15,
-    marginBottom: 50,
-    marginTop: 50,
+    marginBottom: 300
    },
    circle:{
     width: 50,
@@ -353,7 +353,7 @@ var purple = new Sound('evil.mp3', Sound.MAIN_BUNDLE, error => {
     width: '100%',
     paddingRight: 15,
     marginBottom: 15,
-    marginTop: 240,
+    marginTop: 390,
    },
    restart:{
     width: 40,

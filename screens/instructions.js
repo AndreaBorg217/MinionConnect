@@ -47,12 +47,10 @@
     borderBottomWidth: 4,
     borderBottomColor: 'white',
     width: '100%',
-    transform: [{ translateY: -370 }],
+    transform: [{ translateY: -320 }],
     alignItems: 'center',
     justifyContent: 'center',
     position: 'absolute',
-    paddingLeft: -15,
-    paddingRight: -15,
    },
    text:{
     color: 'white',
@@ -93,7 +91,7 @@
    image:{
     width: 250,
     height: 250,
-    transform: [{translateY: 330}],
+    transform: [{translateY: 270}],
    }
   });
  

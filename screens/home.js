@@ -50,7 +50,7 @@
     borderWidth: 3,
     borderColor: 'black',
     borderRadius: 15,
-    transform: [{ translateY: 100 }]
+    transform: [{ translateY: 80 }]
    },
    btntext:{
     color: 'black',
@@ -63,7 +63,7 @@
    yellow:{
     width: 300,
     height: 300,
-    transform: [{ translateY: 195 }],   
+    transform: [{ translateY: 140 }],   
   },
   imgcontainer:{
     flexDirection: 'row'
