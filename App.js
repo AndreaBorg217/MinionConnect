@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import {StyleSheet, SafeAreaView} from 'react-native';
+import {StyleSheet, SafeAreaView, StatusBar} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './screens/home';
@@ -21,8 +21,10 @@ const Stack = createNativeStackNavigator();
 
 const App = () => {
   return(
+    
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false}}>
+    <StatusBar translucent={true}></StatusBar>
+      <Stack.Navigator  screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Play" component={Game} />
         <Stack.Screen name="Instructions" component={Instructions} />
