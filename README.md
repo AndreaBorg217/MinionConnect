@@ -9,3 +9,5 @@
 </p>
 
 All icons have been obtained from FlatIcon.
+MINIONS Trademark of Universal City Studios LLC 
+CONNECT FOUR is a trademark of HASBRO, INC.
