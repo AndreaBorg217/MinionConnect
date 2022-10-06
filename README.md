@@ -8,6 +8,6 @@
   <img src="Screenshots\Screenshot_1661508991.png" width="350" >
 </p>
 
-All icons have been obtained from FlatIcon.
-MINIONS Trademark of Universal City Studios LLC 
+All icons have been obtained from FlatIcon. <br/>
+MINIONS Trademark of Universal City Studios LLC <br/>
 CONNECT FOUR is a trademark of HASBRO, INC.
