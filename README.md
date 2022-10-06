@@ -1,5 +1,5 @@
 # MinionConnect
-### An Minion themed Connect 4 game.
+### A Minion themed Connect 4 game.
 <p align="center">
   <img src="Screenshots\Screenshot_1661508972.png" width="350" >
   <img src="Screenshots\Screenshot_1661508975.png" width="350" >
